@@ -4,7 +4,6 @@ public abstract class GameChar {
     private int damage;
     private int healthy;
     private int money;
-
     public GameChar(int id, String name, int damage, int healthy, int money) {
         this.id = id;
         this.name = name;

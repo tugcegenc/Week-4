@@ -9,11 +9,9 @@ public class Snake extends Obstacle {
         this.damage = random.nextInt(4) + 3;
         awardPrize();
     }
-
     public int getDamage() {
         return this.damage;
     }
-
     public void awardPrize() {
         int randomItem = random.nextInt(100);
         int snakeAward = getAward();

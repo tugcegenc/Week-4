@@ -10,7 +10,6 @@ public class Armor {
         this.block = block;
         this.price = price;
     }
-
     public String getName() {
         return name;
     }

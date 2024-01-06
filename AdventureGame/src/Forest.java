@@ -4,5 +4,4 @@ public class Forest extends BattleLoc{
 
         super(player,"Forest",new Vampire(),"Firewood",3);
     }
-
 }

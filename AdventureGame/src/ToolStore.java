@@ -85,7 +85,6 @@ public class ToolStore extends NormalLoc {
         while (selectArmorId < 1 || selectArmorId > Weapon.weapons().length) {
 
 
-
             System.out.println("Geçersiz değer, lütfen tekrar deneyiniz. ");
             onLocation();
 

@@ -60,7 +60,6 @@ public class Game {
                 System.out.println("OYUN BİTTİ...");
                 break;
             }
-
         }
     }
 }

@@ -111,7 +111,6 @@ public class Player {
                 System.out.println("Lütfen geçerli bir sayı giriniz");
         }
     }
-
     public void initPlayer(GameChar gameChar) {
         this.setDamage(gameChar.getDamage());
         this.setHealth(gameChar.getHealthy());

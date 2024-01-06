@@ -113,8 +113,6 @@ public abstract class BattleLoc extends Location {
             System.out.println();
             playerStats();
             obstacleStats(i);
-
-
             boolean playerFirst = new Random().nextBoolean();
 
             while (this.getPlayer().getHealth() > 0 && this.getObstacle().getHealth() > 0) {

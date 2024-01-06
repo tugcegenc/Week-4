@@ -45,7 +45,6 @@ public class Inventory {
         this.armor = new Armor("Zırh yok", 0, 0, 0);
 
     }
-
     public Weapon getWeapon() {
         return weapon;
     }
