@@ -76,7 +76,7 @@ public abstract class BattleLoc extends Location {
                     if (!isAwarded) {
                         System.out.println("----------------------------");
                         getPlayer().getInventory().setAward(this.getAward());
-                        System.out.println("Toplam Para Ödülü: " + getObstacle().getAward()*randomObstacleNumber());
+                        System.out.println("Toplam Para Ödülü: " + getObstacle().getAward()*obsNumber);
                         this.getPlayer().setMoney(this.getPlayer().getMoney() + this.getObstacle().getAward());
                         System.out.println("Güncel Paranız: " + this.getPlayer().getMoney());
 
